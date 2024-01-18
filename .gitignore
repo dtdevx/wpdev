@@ -1,4 +1,21 @@
 /database/*
-/wordpress/*
+/wordpress/*.*
+/wordpress/wp-admin
+/wordpress/wp-content/*
+/wordpress/wp-content/plugins/*
+/wordpress/wp-content/themes/*
+/wordpress/wp-includes
+
+# Folder for working / draft files
 /tmp
+
+# Keep folders / structures in git
 !.gitkeep
+
+# Allow certain plugins
+!/wordpress/wp-content/plugins
+# !/wordpress/wp-content/plugins/plugin-folder
+
+# Allow certain themes
+!/wordpress/wp-content/themes
+# !/wordpress/wp-content/themes/theme-folder
