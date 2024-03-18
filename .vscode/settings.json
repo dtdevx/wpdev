@@ -1,1 +1,9 @@
-{}
+{
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  }
+}
